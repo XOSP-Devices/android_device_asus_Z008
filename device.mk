@@ -30,13 +30,7 @@ $(call inherit-product-if-exists, frameworks/native/build/phone-xxhdpi-2048-hwui
 ADDITIONAL_DEFAULT_PROPERTIES += \
     ro.sys.perf.device.powersave=1250000 \
     ro.sys.perf.device.full=1833000 \
-    ro.sys.perf.device.touchboost=1500000 \
-    ro.secure=0 \
-    ro.adb.secure=0 \
-    ro.debuggable=1 \
-    service.adb.root=1 \
-    persist.service.adb.enable=1 \
-    persist.service.debuggable=1
+    ro.sys.perf.device.touchboost=1500000 
 
 DEVICE_PACKAGE_OVERLAYS := \
     device/asus/Z008/overlay
